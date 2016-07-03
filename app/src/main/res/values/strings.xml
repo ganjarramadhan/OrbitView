@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Programming Test</string>
+    <string name="jumlah_item">Jumlah Item:</string>
+    <string name="radius_lingkaran">Radius Lingkaran:</string>
+    <string name="gambar">Gambar</string>
+    <string name="error_field_kosong">Field ini dibutuhkan...</string>
+    <string name="error_input_bukan_nomor">Input harus berupa nomor</string>
+    <string name="error_radius_invalid">Radius harus lebih besar dari 0</string>
+</resources>
