@@ -72,6 +72,9 @@ public class CircleViewTest extends View {
     }
 
     private void drawLittleOrbit(Canvas canvas, int orbitSize){
+        // cek orbit size, cancel if less than or equal 0
+        if (orbitSize <= 0)
+            return;
 
         // jumlah sebaran berdasarkan derajat lingkaran
         float moveDegree = 360 / orbitSize;
